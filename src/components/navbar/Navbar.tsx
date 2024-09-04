@@ -13,7 +13,6 @@ function Navbar() {
             <div className='flex  items-center gap-5'>
               <div className='hover:underline'>Categorias</div>
               <div className='hover:underline'>Cadastrar Categoria</div>
-              <div className='hover:underline'>Sair</div>
             </div>
           </div>
         </div>
