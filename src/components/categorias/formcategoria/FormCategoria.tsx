@@ -46,7 +46,7 @@ function FormCategoria() {
         alert('Categoria atualizado com sucesso')
 
       } catch (error: any) {
-        alert('Erro ao atualizar o Categoria')
+        alert('Erro ao atualizar a Categoria')
       }
 
     } else {
@@ -83,10 +83,10 @@ function FormCategoria() {
           <input
             type="text"
             placeholder="Categoria"
-            name='tipo'
+            name='nome'
             className="border-2 border-slate-700 rounded p-2 utral-800"
             required
-            value={categoria.tipo}
+            value={categoria.nome}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
           />
         </div>
